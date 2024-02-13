@@ -131,7 +131,7 @@ def get_news(api_key, country='us', category='general', keywords=None, page_size
             print(f"Error: {response.status_code}")
 
 # API key 
-api_key = 'da8ea720fb0c47dc8fd98574ec8f0940'
+api_key = '############'
 
 # newsapi parameters
 get_news(api_key, country='in', category='sports', keywords=['cricket', 'football', 'ipl', 'isl','world cup','t20','odi','test','premier league'], page_size=100)
